@@ -1,0 +1,2 @@
+rootProject.name='Norim'
+include ':app'
