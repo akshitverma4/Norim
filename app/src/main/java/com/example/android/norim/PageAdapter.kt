@@ -14,7 +14,7 @@ class PageAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
             1 -> {
                 RemindersFragment()
             }
-            3 -> {
+            2 -> {
                 SettingsFragment()
             }
             else -> {
