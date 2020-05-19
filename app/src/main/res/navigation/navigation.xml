@@ -18,10 +18,22 @@
         android:id="@+id/addFragment"
         android:name="com.example.android.norim.AddFragment"
         android:label="fragment_add"
-        tools:layout="@layout/fragment_add" />
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_addFragment_to_testFragment"
+            app:destination="@id/testFragment" />
+        <action
+            android:id="@+id/action_addFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+    </fragment>
     <activity
         android:id="@+id/basicActivity"
         android:name="com.example.android.norim.BasicActivity"
         android:label="activity_basic"
         tools:layout="@layout/activity_basic" />
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.example.android.norim.TestFragment"
+        android:label="fragment_test"
+        tools:layout="@layout/fragment_test" />
 </navigation>

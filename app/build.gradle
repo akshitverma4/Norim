@@ -3,6 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
+//apply plugin:  'androidx.navigation.safeargs'
 
 
 android {
@@ -28,7 +29,7 @@ android {
 
 
     dataBinding {
-        enabled = false
+        enabled = true
     }
 
 
